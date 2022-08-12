@@ -1,0 +1,13 @@
+@import 'bootstrap';
+
+
+a{
+  text-decoration: none;
+  &:hover{
+    color:white;
+  }
+}
+button{
+  background-color:transparent;
+  border:none;
+}

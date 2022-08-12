@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <div class="col-lg-8 offset-lg-2">
+      <div class="card">
+        <div class="card-header h2 text-center">
+            Todo List App
+        </div>
+        <div class="card-body">
+           <table class="table text-center">
+            <thead class='h2'>
+              <th>Id</th>
+              <th>Task</th>
+            </thead>
+            <tbody class='h4'>
+              <td> <%= @list.id %></td>
+               <td> <%= @list.task %></td>
+            </tbody>
+           </table>
+        </div>
+        <div class='card-footer text-center'>  <div class='btn btn-info btn-lg m-2'>  <%= link_to 'Back Page', lists_path %></div> </div>
+      </div>
+    </div>
+</div>
